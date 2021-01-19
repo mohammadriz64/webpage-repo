@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prac!!!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box0;
+        font-family: cursive;
+    }
+
+    ul {
+        overflow: hidden;
+        background-color: darkslateblue;
+        list-style: none;
+        border: 20px 0px;
+        box-shadow: 5px 5px 10px black, 2px 2px 4px red ;
+        position: sticky;
+        top: 0;
+    }
+
+    li {
+        float: left;
+        border-right: 1px solid black;
+    }
+
+    li a {
+        display: block;
+        padding: 14px 16px;
+        text-decoration: none;
+        text-align: center;
+        color: blanchedalmond;
+    }
+
+    .active {
+        background: linear-gradient(60deg, rgb(25, 26, 25), purple);
+    }
+
+    li:last-child {
+        border-right: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: tomato;
+        border-radius: 5px;
+        color: black;
+    }
+    div{
+        margin-top: 2.5%;
+        border: 2px solid rgb(65, 104, 7);
+        border-radius: 10px;
+        padding: 10px;
+        overflow: hidden;
+    }
+    img{
+        float: right;
+        margin-left: 1.5%;
+    }
+    .div2{
+        border: 3px solid rgb(4, 4, 75);
+        border-radius: 15px;
+        background: linear-gradient(60deg,rgb(224, 99, 224),rgb(238, 99, 99));
+    }
+    h3{
+        color: rgb(12, 12, 12);
+    }
+    footer{
+        background: linear-gradient(60deg,rgb(224, 99, 224),rgb(238, 99, 99));
+        text-align: center;
+        padding: 7px 5px;
+        
+    }
+    table{
+        padding: 10px;
+        margin: 10px;
+        font-size: 18px;
+        width: 400px;
+        height: 300px;
+        margin-left: 37%;
+        margin-top: 30px;
+        box-shadow: 10px 5px 5px black;
+        background-color: brown;
+        border-radius: 15px;
+        text-align: center;
+
+    }
+    tr:nth-child(2){
+        background-color: darkolivegreen;
+        color: whitesmoke;
+        font-weight: 100;
+    }
+    tr:nth-child(3){
+        background-color: darkolivegreen;
+        color: rgb(8, 8, 8);
+        font-weight: 100;
+    }
+    tr:nth-child(4){
+        background-color: darkolivegreen;
+        color: rgb(74, 9, 158);
+        font-weight: 200;
+    }
+    caption{
+    text-shadow: 7px 7px 7px rgb(3, 3, 3);
+    }
+    .para{
+        margin-top: 5%;
+        border: 10px solid black;
+        border-radius: 15px;
+        margin: 10px;
+        padding: 10px;
+        width: 500px;
+        background-color: rosybrown;
+        height: 400px;
+        margin-left: 32%;
+        overflow: hidden;
+    }
+    section{
+        text-align: center;
+    }
+    section h1{
+        font-family: cursive;
+        color: tomato;
+    }
+    .image{
+        display: inline-block;
+        width: 300px;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 7px;
+    }
+    .image img{
+        width: 100%;
+    }
+    .image:hover{
+        box-shadow: 7px 5px 5px black;
+        background-color: rgb(16, 151, 100);
+        transform: rotate(-10deg) scale(0.8);
+    }
+
+
+</style>
+
+<body>
+    <ul>
+        <li><a class="active" href="">Home</a></li>
+        <li><a href="">services</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">Contact</a></li>
+        <li style="float: right;"><a href="">About</a></li>
+    </ul>
+    <div>
+        <p style="text-align: justify;"><img src="./dropdown/something.jpg" width="400" height="250">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem repellat molestias consectetur. Sed corporis
+            maxime nam suscipit ut vitae excepturi enim voluptatem, provident, odit praesentium labore quas aspernatur.
+            Quasi impedit a corporis possimus placeat itaque quia delectus numquam culpa minus aut ex eaque neque omnis
+            veniam consectetur ab, quis molestiae. Beatae tenetur officia recusandae eius sapiente, at officiis ratione
+            minus, voluptates ad doloremque, obcaecati quaerat rerum. Qui, voluptates dignissimos! Ea labore harum esse
+            necessitatibus error rem et mollitia dolorum sed vitae consequatur placeat nihil veniam rerum, voluptate
+            verit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem repellat molestias consectetur. Sed corporis
+            maxime nam suscipit ut vitae excepturi enim voluptatem, provident, odit praesentium labore quas aspernatur.
+            Quasi impedit a corporis possimus placeat itaque quia delectus numquam culpa minus aut ex eaque neque omnis
+            veniam consectetur ab, quis molestiae. Beatae tenetur officia recusandae eius sapiente, at officiis ratione
+            minus, voluptates ad doloremque, obcaecati quaerat rerum. Qui, voluptates dignissimos! Ea labore harum esse
+            necessitatibus error rem et mollitia dolorum sed vitae consequatur placeat nihil veniam rerum, voluptate
+            verit minus, voluptates ad doloremque, obcaecati quaerat rerum. Qui, voluptates dignissimos! Ea labore harum esse
+            necessitatibus error rem et mollitia dolorum sed vitae consequatur placeat nihil veniam rerum, voluptate
+            verit..</p>
+    </div>
+    <div class="div2">
+        <marquee behavior="alternate" scrollamount="10%"> <h3>Table in CSS</h3></marquee>
+    </div>
+    <table>
+        <caption>Cricket Players</caption>
+        <tr>
+            <th>Name</th>
+            <th>Roll</th>
+            <th>Place</th>
+        </tr>
+        <tr>
+            <td>Adil</td>
+            <td>Opener</td>
+            <td>Opening pair</td>
+        </tr>
+        <tr>
+            <td>Farhan</td>
+            <td>Opener</td>
+            <td>Opening pair</td>
+        </tr>
+        <tr>
+            <td>Kaif</td>
+            <td>Captain</td>
+            <td>One Down</td>
+        </tr>
+    </table>
+
+    <div class="para">
+        <h2>paragraph</h2>
+        <p style="text-align: justify;">maxime nam suscipit ut vitae excepturi enim voluptatem, provident, odit praesentium labore quas aspernatur.
+            Quasi impedit a corporis possimus placeat itaque quia delectus numquam culpa minus aut ex eaque neque omnis
+            veniam consectetur ab, quis molestiae. Beatae tenetur officia recusandae eius sapiente, at officiis ratione.maxime nam suscipit ut vitae excepturi enim voluptatem, provident, odit praesentium labore quas aspernatur.
+            Quasi impedit a corporis possimus placeat itaque quia delectus numquam culpa minus aut ex eaque neque omnis
+            veniam consectetur ab, quis molestiae. Beatae tenetur officia recusandae eius sapiente, at officiis rationemaxime nam suscipit ut vitae excepturi enim voluptatem, provident, odit praesentium labore quas aspernatur.
+            Quasi impedit a corporis possimus placeat itaque quia delectus numquam culpa minus aut ex eaque neque omnis
+            veniam consectetur ab, quis molestiae. Beatae tenetur officia recusandae eius sapiente, at officiis ratione</p>
+    </div>
+    <section>
+
+        <div class="image">
+            <img src="./harley-davidson.jpg">
+        <div>harley-davidson</div>
+    </div>
+    <div class="image">
+        <img src="./harley-davidson.jpg">
+        <div>harley-davidson</div>
+    </div>
+    <div class="image">
+        <img src="./harley-davidson.jpg">
+        <div>harley-davidson</div>
+    </div>
+    <div class="image">
+        <img src="./harley-davidson.jpg">
+        <div>harley-davidson</div>
+    </div>
+    <div class="image">
+        <img src="./harley-davidson.jpg">
+        <div>harley-davidson</div>
+    </div>
+    <div class="image">
+        <img src="./harley-davidson.jpg">
+        <div>harley-davidson</div>
+    </div>
+    <div class="image">
+        <img src="./harley-davidson.jpg">
+        <div>harley-davidson</div>
+    </div>
+    <div class="image">
+        <img src="./harley-davidson.jpg">
+        <div>harley-davidson</div>
+    </div>
+    <div class="image">
+        <img src="./harley-davidson.jpg">
+        <div>harley-davidson</div>
+    </div>
+    <div class="image">
+        <img src="./harley-davidson.jpg">
+        <div>harley-davidson</div>
+    </div>
+    <div class="image">
+        <img src="./harley-davidson.jpg">
+        <div>harley-davidson</div>
+    </div>
+    <div class="image">
+        <img src="./harley-davidson.jpg">
+        <div>harley-davidson</div>
+    </div>
+</section>
+    
+    <footer>
+        <p>CopyRight &copy;</p>
+        <p>Registered Trademark <sup>&reg;</sup></p>
+        <p>All Rights Reseverd</p>
+        <a href="navprac.html"><i class="fa fa-whatsapp" style="color: #25D366;"> Whatsapp</i></a>
+        <a href="navprac.html"><i class="fa fa-instagram" style="color: #8a3ab9;"> InstaGram</i></a>
+        <a href="navprac.html"><i class="fa fa-facebook" style="color: #4267b2;"> Facebook</i></a>
+    </footer>
+</body>
+
+</html>

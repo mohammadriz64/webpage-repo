@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YesPrac</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url(./bg.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    nav {
+        box-shadow: 5px 5px 10px black;
+        overflow: hidden;
+        border-radius: 20px 0px;
+        background: seagreen;
+        position: sticky;
+        top: 0%;
+    }
+
+    nav a {
+        display: inline-block;
+        color: rgb(5, 5, 5);
+        padding: 14px 16px;
+        text-decoration: none;
+        float: right;
+
+    }
+
+    nav a:hover {
+        background-color: black;
+        color: blanchedalmond;
+        border-radius: 10px;
+
+    }
+
+    section {
+        margin-top: 20px;
+    }
+
+    .active {
+        background-color: rgb(234, 241, 243);
+        float: left;
+        border-left: none;
+    }
+input[type=text] , select{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0px;
+    display: inline-block;
+
+}
+input[type=email]{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0px;
+    display: inline-block;
+}
+input[type=button] {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 14px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 35%;
+}
+input[type=button]:hover {
+  background-color: #f74e4ee3;
+  
+}
+div{
+    border-radius: 10px;
+    /* background-color: #f2f2f2; */
+    box-shadow: 5px 5px 5px black;
+    padding: 15px;
+    border: 3px solid rgb(15, 15, 15);
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+legend{
+box-shadow: 0 0 5px black ;
+padding: 15px;
+background-color: crimson;
+color: black;
+border-radius: 25px;
+}
+
+</style>
+
+<body>
+    <nav>
+        <a href="">Contact</a>
+        <a href="">About Us</a>
+        <a href="">Clients</a>
+        <a href="">Training</a>
+        <a href="">Services</a>
+        <a class="active" href="">Home</a>
+    </nav>
+    <section>
+        <h2 style="color: darkblue;"><u>Web Development</u></h2>
+        <p style="text-align: justify;">Web development is the building and maintenance of websites; it’s the work that
+            happens behind the scenes to make a website look great, work fast and perform well with a seamless user
+            experience.
+            Web developers, or ‘devs’, do this by using a variety of coding languages. The languages they use depends on
+            the types of tasks they are preforming and the platforms on which they are working.Web development skills
+            are in high demand worldwide and well paid too – making development a great career option. It is one of the
+            easiest accessible higher paid fields as you do not need a traditional university degree to become
+            qualified.</p>
+            <form>
+        <fieldset>
+            <legend><b>Student login-Form</b></legend>
+            <marquee behavior="alternate" scrollamount="10%"><h3 style="color: rgb(8, 8, 8);">Moving text</h3></marquee>
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="First Name" placeholder="Your First Name">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="last Name" placeholder="Your Last Name">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="mail" placeholder="Email address">
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="Australia">Australia</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Germany">Germany</option>
+                    <option value="USA">USA</option>
+                </select>
+               <input type="button" value="Submit">
+               <input type="button" value="Reset">
+
+            </div>
+        </fieldset>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam aspernatur repellat dolorem rerum numquam earum ab eligendi, magni, quidem accusamus exercitationem, voluptas cumque deleniti esse perferendis corporis autem itaque debitis.</p>
+    </form>
+    </section>
+</body>
+
+</html>

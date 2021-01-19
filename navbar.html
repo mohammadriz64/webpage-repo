@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    ul{
+        list-style-type: none;
+        overflow: hidden;
+        background-color: rgb(74, 97, 160);
+    }
+    li{
+        float: left;
+        border-right:1px solid whitesmoke ;
+    }
+    li:last-child{
+        border-right: none;
+    }
+    li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover{
+        background-color: tomato;
+    }
+    .active{
+        background: linear-gradient(45deg,green,yellow);
+    }
+</style>
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a  href="#Services">Services</a></li>
+        <li><a  href="#Projects">Projects</a></li>
+        <li><a href="#News">News</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li style="float: right;"><a href="#About">About</a></li>
+    </ul>
+</body>
+</html>

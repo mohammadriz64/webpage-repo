@@ -6,28 +6,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Forms</title>
 </head>
+<style>
+    .site-header {
+        background: linear-gradient(45deg, purple, yellow);
+        padding: 5px;
+        width: 100%;
+        height: 30px;
+        box-shadow: 5px 5px 5px black;
+        border-radius: 10px;
+    
+    }
+
+    nav a {
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        float: right;
+        padding: 5px 10px;
+
+    }
+
+    nav a:hover {
+        background-color: whitesmoke;
+        color: black;
+        width: fit-content;
+        border-radius: 15px;
+    }
+
+    form {
+        background-color: lightsalmon;
+        width: fit-content;
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 15px 15px grey;
+    }
+</style>
 
 <body>
+    <header class="site-header">
+        <nav>
+            <a href="webpage.html">Home</a>
+            <a href="">Services</a>
+            <a href="loginForm.html">About Us</a>
+            <a href="loginForm.html">Contact</a>
+        </nav>
+    </header>
     <h3>HTML Form tutorial</h3>
-    <form action="backend.php">
+    <form>
         <div>
-            Fisrt Name: <br>
-            <input type="text" name="First-name">
+            First Name: <br>
+            <input type="text" name="FirstName">
         </div>
+        <br>
+        <div>
+            Last Name: <br>
+            <input type="text" name="LastName">
+        </div>
+        <br>
         <div>
             Role: <br>
-            <input type="text" name="Role">
+            <input type="text" name="myRole">
         </div>
+        <br>
         <div>
-            E-mail: <br>
-           <input type="email" name="my-email">
+            Email: <br>
+            <input type="email" name="myEmail">
         </div>
+        <br>
         <div>
-            password: <br>
-           <input type="password" name="my-password">
+            Password: <br>
+            <input type="password" name="myPassword">
         </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" min="0" max="10000" step="100">
+        </div>
+        <br>
+        <div>
+            Range: 0<input type="range" min="0" max="100">100
+        </div>
+        <br>
+        <div>
+            <label>choose color</label>
+            <input type="color">
+        </div>
+        <br>
+        <div>
+            <label>Time</label>
+            <input type="time">
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type="checkbox" name="myEligibility">
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender">
+            Other<input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Type URL: <input type="url"> <input type="submit" value="submit">
+        </div>
+        <br>
+        <div>
+            SearchBox: <input type="search">
+            <div>
+                <br>
+                <div>
+                    <table>
+                        <td><label>comment</label></td>
+                        <td><textarea cols="10" rows="5" maxlength="150"></textarea></td>
+                    </table>
+                    <br>
+                    <div>
+                        <input type="submit" value="Submit Now">
+                        <input type="reset" value="Reset Now">
+                    </div>
     </form>
-
 </body>
 
 </html>
