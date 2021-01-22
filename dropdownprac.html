@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dropprac</title>
+</head>
+<style>
+    nav{
+    box-shadow: 0 0 10px black;
+    padding: 5px;
+    border-radius: 15px 5px 15px 5px;
+}
+nav a{
+    margin-left: 25px;
+    color: rgb(10, 10, 10);
+    padding: 10px 15px;
+    text-decoration: none;
+    background: rgb(216, 65, 65);
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.serv1{
+    display: inline-block;
+}
+.ser-item a{
+background-color: rgb(174, 201, 102);
+display: block;
+}
+.ser-item{
+    position: absolute;
+    padding: 5px;
+    width: 180px;
+    margin-top: 3px;
+    display: none;
+    color: white;
+}
+nav a:hover{
+    background: linear-gradient(45deg,rgb(36, 29, 29),rgb(121, 194, 121));
+    box-shadow: 0 0 5px rgb(133, 39, 39);
+    color: rgb(7, 7, 7);
+}
+.serv1:hover .ser-item{
+    display: block;
+    text-align: center;
+}
+.con{
+    display: inline-block;
+}
+.con-item a{
+background-color: blueviolet;
+display: block;
+}
+.con-item{
+    position: absolute;
+    padding: 5px;
+    width: 180px;
+    margin-top: 3px;
+    display: none;
+    color: white;
+}
+.con:hover .con-item{
+    display: block;
+    text-align: center;
+}
+.abt{
+    display: inline-block;
+}
+.abt-item a{
+background-color: blueviolet;
+display: block;
+}
+.abt-item{
+    position: absolute;
+    padding: 5px;
+    width: 180px;
+    margin-top: 3px;
+    display: none;
+    color: white;
+}
+.abt:hover .abt-item{
+    display: block;
+    text-align: center;
+}
+
+</style>
+<body>
+    <nav>
+        <a href="">Home</a>
+        <div class="serv1">
+            <a href="">Services</a>
+            <div class="ser-item">
+                <a href="">Service1</a>
+                <a href="">Service2</a>
+                <a href="">Service3</a>
+            </div>
+        </div>
+        <div class="con">
+            <a href="">Contact</a>
+            <div class="con-item">
+                <a href="">Contact1</a>
+                <a href="">Contact2</a>
+                <a href="">Contact3</a>
+            </div>
+        </div>
+        
+        <div class="abt">
+            <a href="">about</a>
+            <div class="abt-item">
+                <a href="">Know us</a>
+            </div>
+        </div>
+</body>
+</html>

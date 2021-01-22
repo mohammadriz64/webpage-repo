@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown menu</title>
+</head>
+<style>
+nav{
+    box-shadow: 0 0 10px black;
+    padding: 5px;
+    border-radius: 15px 5px 15px 5px;
+}
+nav a{
+    color: rgb(7, 7, 7);
+    padding: 10px 15px;
+    text-decoration: none;
+    background: rgb(163, 101, 9);
+    display: inline-block;
+    font-size: 10px;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdownlist a{
+background-color: blueviolet;
+display: block;
+}
+.dropdownlist{
+    position: absolute;
+    padding: 5px;
+    width: 180px;
+    margin-top: 3px;
+    display: none;
+    color: white;
+}
+nav a:hover{
+    background: linear-gradient(45deg,rgb(36, 29, 29),rgb(121, 194, 121));
+    box-shadow: 0 0 5px black;
+    color: blanchedalmond;
+}
+.dropdown:hover .dropdownlist{
+    display: block;
+    text-align: center;
+}
+
+</style>
+<body>
+    <nav>
+        <a href="">Home</a>
+        <a href="">Services</a>
+        <a href="">Contact</a>
+        <div class="dropdown">
+            <a href="">Items</a>
+            <div class="dropdownlist">
+                <a href="">Item1</a>
+                <a href="">Item2</a>
+                <a href="">Item3</a>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
