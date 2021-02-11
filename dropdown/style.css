@@ -81,4 +81,7 @@ background:rgb(98, 72, 161) ;
     font-size: 16px;
     margin: 5px;
 }
+.reg1 a:hover{
+    background: linear-gradient(45deg,rgb(173, 55, 55),rgb(180, 189, 238),green);
+}
 
