@@ -13,6 +13,6 @@ img{
 section{
     text-align: center;
 }
-/* .gallery:hover{
-    transform: rotate(-5deg);
-} */
+.gallery:hover{
+    transform: rotate(5deg)scale(1.08);
+}
