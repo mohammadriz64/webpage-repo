@@ -67,7 +67,7 @@ body{
     left: 0;
     z-index: -1;
 }
-/*
+
 .our-team .pic img{
     width: 100%;
     height: auto;
@@ -75,6 +75,7 @@ body{
     transform: scale(1);
     transition: all 0.9s ease 0s;
 }
+/*
 .our-team:hover .pic img{
     box-shadow: 0 0 0 14px #f7f5ec;
     transform: scale(0.7);
