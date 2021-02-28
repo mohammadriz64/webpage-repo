@@ -31,8 +31,8 @@ body{
 
 .our-team .pic{
     display: inline-block;
-    /* width: 130px; */
-    /* height: 130px; */
+    width: 130px;
+    height: 130px;
     margin-bottom: 0px;
     z-index: 1;
     position: relative;
