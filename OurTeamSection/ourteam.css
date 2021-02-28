@@ -114,7 +114,7 @@ body{
     cursor: pointer;
     letter-spacing: 0.1rem;
 }
-/*
+
 .our-team .info{
     width: 100%;
     margin: 0;
@@ -125,6 +125,7 @@ body{
     left: 0;
     transition: all 0.5s ease 0s;
  }
+ /*
 .our-team:hover .info{
     bottom: 0;
 } 
