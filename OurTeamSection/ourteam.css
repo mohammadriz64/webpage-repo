@@ -52,10 +52,11 @@ body{
     transform: scale(3);
     transition: all 0.3s linear 0s;
 }
-/*
+
 .our-team:hover .pic::before{
     height: 100%;
 }
+/*
 .our-team .pic::after{
     content: "";
     width: 100%;
