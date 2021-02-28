@@ -28,15 +28,16 @@ body{
     margin: 0px 25px;
     padding: 30px 70px;
 }
-/*
+
 .our-team .pic{
     display: inline-block;
-    width: 130px;
-    height: 130px;
+    /* width: 130px; */
+    /* height: 130px; */
     margin-bottom: 0px;
     z-index: 1;
     position: relative;
 }
+/*
 .our-team .pic::before{
     content: "";
     width: 100%;
