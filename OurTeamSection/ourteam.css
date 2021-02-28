@@ -125,10 +125,11 @@ body{
     left: 0;
     transition: all 0.5s ease 0s;
  }
- /*
+ 
 .our-team:hover .info{
     bottom: 0;
 } 
+/*
 .our-team .info li{
     display: inline-block;
     list-style: none;
