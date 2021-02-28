@@ -143,11 +143,12 @@ body{
     color: #fff;
     transition: all 0.3s ease 0s;
 }
-/*
+
 .our-team .info li a:hover{
     color: #1785eb;
     background: #f7f5ec;
 }
+/*
 @media (max-width: 720px) {
     .main_div{
         flex-direction: column;
