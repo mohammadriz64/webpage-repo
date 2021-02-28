@@ -145,10 +145,10 @@ body{
 }
 
 .our-team .info li a:hover{
-    color: #1785eb;
+    color: #2e97f8;
     background: #f7f5ec;
 }
-/*
+
 @media (max-width: 720px) {
     .main_div{
         flex-direction: column;
@@ -158,4 +158,4 @@ body{
         margin-top: 30px;
     }
 
-} */
+} 
