@@ -129,11 +129,12 @@ body{
 .our-team:hover .info{
     bottom: 0;
 } 
-/*
+
 .our-team .info li{
     display: inline-block;
     list-style: none;
 }
+/*
 .our-team .info li a{
     text-decoration: none;
     display: block;
